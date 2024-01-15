@@ -1,0 +1,6 @@
+[submodule "orchestrator"]
+	path = orchestrator
+	url = git@github.com:Venthe/Pipeline-Orchestrator.git
+[submodule "runner"]
+	path = runner
+	url = git@github.com:Venthe/Pipeline-Action-Runner.git
