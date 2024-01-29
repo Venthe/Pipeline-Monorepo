@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Pipeline-Monorepo.iml" filepath="$PROJECT_DIR$/.idea/Pipeline-Monorepo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gerrit_mediator.aotTest.iml" filepath="$PROJECT_DIR$/.idea/modules/gerrit_mediator.aotTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gerrit_mediator.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gerrit_mediator.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gerrit_mediator.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gerrit_mediator.test.iml" />
+    </modules>
+  </component>
+</project>

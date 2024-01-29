@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.24/13a394eed5c4f9efb2a6d956e2086f1d81e857d9/lombok-1.18.24.jar" />
+        </processorPath>
+        <module name="gerrit_mediator.aot" />
+        <module name="gerrit_mediator.aotTest" />
+        <module name="gerrit_mediator.test" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/3.1.0/6364a0d4d16f77885a86a51906d68107674eebbd/spring-boot-configuration-processor-3.1.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.24/13a394eed5c4f9efb2a6d956e2086f1d81e857d9/lombok-1.18.24.jar" />
+        </processorPath>
+        <module name="gerrit_mediator.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gerrit_mediator.schemas" target="17" />
+      <module name="gerrit_mediator.schemas.main" target="17" />
+      <module name="gerrit_mediator.schemas.test" target="17" />
+      <module name="libraries" target="17" />
+      <module name="libraries.main" target="17" />
+      <module name="libraries.test" target="17" />
+      <module name="schemas" target="17" />
+      <module name="schemas.libraries.main" target="17" />
+      <module name="schemas.libraries.test" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
