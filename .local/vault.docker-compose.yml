@@ -1,0 +1,27 @@
+version: "3.9"
+services:
+  vault:
+
+    # https://hub.docker.com/r/hashicorp/vault
+    image: docker.io/hashicorp/vault:1.15
+    depends_on:
+      - openldap
+    entrypoint: sh
+    # Original command parameters are no longer relevant
+    command:
+      - /init.sh
+    environment:
+      VAULT_DEV_ROOT_TOKEN_ID: dev_root_token
+    cap_add:
+      - IPC_LOCK
+    ports:
+      # Cluster address
+      - ":8201"
+      # Accessible at http://localhost:8200/ui
+      # API address
+      - "${VAULT_WEB_PORT:-8200}:8200"
+    volumes:
+      # - ./file/:/vault/file/
+      - "./vault/config.hcl:/vault/config.d/config.hcl:ro"
+      - "./vault/init.sh:/init.sh:ro"
+      - "./vault/secrets/:/secrets:ro"

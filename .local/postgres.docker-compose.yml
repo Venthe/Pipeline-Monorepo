@@ -1,0 +1,30 @@
+version: "3.9"
+services:
+
+  # https://hub.docker.com/r/dpage/pgadmin4
+  pgadmin:
+    image: docker.io/dpage/pgadmin4:8.2
+    restart: "on-failure"
+    ports:
+      - "${PGADMIN_WEB_PORT}:8080"
+      - ":443"
+    environment:
+      PGADMIN_DEFAULT_EMAIL: user@domain.com
+      PGADMIN_DEFAULT_PASSWORD: secret
+
+  # https://hub.docker.com/_/postgres
+  postgres:
+    image: docker.io/library/postgres:16.1
+    restart: "always"
+    environment:
+      POSTGRES_USER: "${POSTGRES_USERNAME}"
+      POSTGRES_PASSWORD: "${POSTGRES_PASSWORD}"
+      POSTGRES_DB: "${POSTGRES_DATABASE}"
+      # Fixes problems with file ownership on windows bind mounts
+      PGDATA: "/var/lib/postgresql/data/pgdata"
+    # volumes:
+    #   - "pgdata:/var/lib/postgresql/data"
+    #   - ./init.sql:/docker-entrypoint-initdb.d/
+
+volumes:
+  pgdata: ~

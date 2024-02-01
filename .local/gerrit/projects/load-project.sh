@@ -46,7 +46,7 @@ function load_project() {
   local WORK_DIR=$(mktemp -d)
 
   originalPwd="${PWD}"
-  cp -r "projects/${PROJECT_NAME}" "${WORK_DIR}"
+  cp -r "${PROJECT_NAME}" "${WORK_DIR}"
   cd "${WORK_DIR}/${PROJECT_NAME}"
 
   git init

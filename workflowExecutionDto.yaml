@@ -1,0 +1,91 @@
+triggeringActor: User1
+dependecyTree:
+  - ["staticAnalysis", "build"]
+  - ["unitTest", "smokeTest"]
+  - ["deployToEnvironment"]
+jobs:
+  build:
+    status: in_progress
+    continueOnError: false
+    startedDate: 2024-01-23T09:07:22−07:00
+    outputs:
+      result_version_${{ matrix.version }}: ${{ steps.step1.outputs.test }}
+    strategy:
+      matrix:
+        version: [1, 2]
+    executions:
+      - matrix:
+          version: 1
+        inputs:
+          foo: bar
+        executionId: 018d3752-b552-759d-a9b1-8825a6edbadb
+        runs:
+          - status: failure
+            attempt: 1
+            startedDate: 2024-01-23T09:08:22−07:00
+            endDate: 2024-01-23T09:08:23−07:00
+            id: 018d3745-d96e-77d7-90ab-9e303fe8bb7a
+            triggeringActor: User1
+            steps:
+              - id: step_1
+                status: success
+                outcome: success
+                startedDate: 2024-01-23T09:08:22−07:00
+                endDate: 2024-01-23T09:08:23−07:00
+              - id: specifiedId
+                status: success
+                outcome: success
+                startedDate: 2024-01-23T09:08:22−07:00
+                endDate: 2024-01-23T09:08:23−07:00
+              - id: step_3
+                status: failure
+                outcome: failure
+                startedDate: 2024-01-23T09:08:22−07:00
+                endDate: 2024-01-23T09:08:23−07:00
+          - status: running
+            attempt: 2
+            endDate: 2024-01-23T09:08:24−07:00
+            id: 018d3745-f39d-7b2c-be8b-f8c545d90f3e
+            triggeringActor: User2
+            steps:
+              - id: step_1
+                status: success
+                outcome: success
+                startedDate: 2024-01-23T09:08:22−07:00
+                endDate: 2024-01-23T09:08:23−07:00
+              - id: specifiedId
+                status: in_progress
+                outcome: in_progress
+                startedDate: 2024-01-23T09:08:22−07:00
+              - id: step_3
+                status: waiting
+                outcome: waiting
+      - matrix:
+          version: 2
+        executionId: 018d3752-db95-7321-ade5-e9877d3315af
+        runs:
+          - status: completed
+            attempt: 1
+            startedDate: 2024-01-23T09:08:22−07:00
+            endDate: 2024-01-23T09:08:25−07:00
+            id: 018d3746-5424-717f-a608-9d43f1c51306
+            outputs:
+              result_version_1: baz
+  staticAnalysis:
+    status: waiting
+    executions: []
+  unitTest:
+    status: waiting
+    needs: ["build"]
+    executions: []
+  smokeTest:
+    status: waiting
+    needs: ["build"]
+    executions: []
+    services:
+      database: ~
+  deployToEnvironment:
+    status: waiting
+    needs: ["unitTest", "smokeTest"]
+    executions: []
+---

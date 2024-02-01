@@ -1,0 +1,35 @@
+version: "3.9"
+services:
+
+  # https://hub.docker.com/r/gerritcodereview/gerrit
+  gerrit:
+    container_name: gerrit
+    restart: always
+    depends_on:
+      - openldap
+    image: docker.io/gerritcodereview/gerrit:3.9.1
+    ports:
+      - "${GERRIT_WEB_PORT}:8080"
+      - ":29418"
+    volumes:
+      # - gerrit-etc:/var/gerrit/etc
+      # - gerrit-git:/var/gerrit/git
+      # - gerrit-db:/var/gerrit/db
+      # - gerrit-index:/var/gerrit/index
+      # - gerrit-cache:/var/gerrit/cache
+      - ./gerrit/secure.config:/var/gerrit/etc/secure.config.initial:ro
+      - ./gerrit/gerrit.config:/var/gerrit/etc/gerrit.config.initial:ro
+    entrypoint: "bash -c"
+    command:
+      - >-
+        cp /var/gerrit/etc/secure.config.initial /var/gerrit/etc/secure.config &&
+        cp /var/gerrit/etc/gerrit.config.initial /var/gerrit/etc/gerrit.config &&
+        /entrypoint.sh init &&
+        /entrypoint.sh
+
+volumes:
+  gerrit-etc: ~
+  gerrit-git: ~
+  gerrit-db: ~
+  gerrit-index: ~
+  gerrit-cache: ~
