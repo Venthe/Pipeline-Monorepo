@@ -7,29 +7,45 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.24/13a394eed5c4f9efb2a6d956e2086f1d81e857d9/lombok-1.18.24.jar" />
         </processorPath>
-        <module name="gerrit_mediator.aot" />
-        <module name="gerrit_mediator.aotTest" />
-        <module name="gerrit_mediator.test" />
+        <module name="orchestrator.aot" />
       </profile>
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
-          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/3.1.0/6364a0d4d16f77885a86a51906d68107674eebbd/spring-boot-configuration-processor-3.1.0.jar" />
-          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.24/13a394eed5c4f9efb2a6d956e2086f1d81e857d9/lombok-1.18.24.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/3.2.2/cdf33f985035494cb3ea6f9e5d6589ba9fb58e91/spring-boot-configuration-processor-3.2.2.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.30/f195ee86e6c896ea47a1d39defbe20eb59cd149d/lombok-1.18.30.jar" />
         </processorPath>
-        <module name="gerrit_mediator.main" />
+        <module name="orchestrator.application.main" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.30/f195ee86e6c896ea47a1d39defbe20eb59cd149d/lombok-1.18.30.jar" />
+        </processorPath>
+        <module name="orchestrator.application.test" />
+        <module name="orchestrator.plugin-docker.main" />
+        <module name="orchestrator.plugin-gerrit.test" />
+        <module name="orchestrator.plugin-api.test" />
+        <module name="orchestrator.utilities.main" />
+        <module name="orchestrator.plugin-api.main" />
+        <module name="orchestrator.plugin-gerrit.main" />
+        <module name="orchestrator.shared-kernel.main" />
+        <module name="orchestrator.utilities.test" />
+        <module name="orchestrator.shared-kernel.test" />
+        <module name="orchestrator.plugin-docker.test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="gerrit_mediator.schemas" target="17" />
-      <module name="gerrit_mediator.schemas.main" target="17" />
-      <module name="gerrit_mediator.schemas.test" target="17" />
-      <module name="libraries" target="17" />
-      <module name="libraries.main" target="17" />
-      <module name="libraries.test" target="17" />
-      <module name="schemas" target="17" />
-      <module name="schemas.libraries.main" target="17" />
-      <module name="schemas.libraries.test" target="17" />
+      <module name="orchestrator.aot" target="17" />
+      <module name="orchestrator.aotTest" target="17" />
+      <module name="orchestrator.buildSrc" target="21" />
+      <module name="orchestrator.buildSrc.main" target="21" />
+      <module name="orchestrator.buildSrc.test" target="21" />
+      <module name="orchestrator.main" target="21" />
+      <module name="orchestrator.test" target="21" />
+      <module name="test-gradle-build-logic" target="21" />
+      <module name="test-gradle-build-logic.main" target="21" />
+      <module name="test-gradle-build-logic.test" target="21" />
     </bytecodeTargetLevel>
   </component>
 </project>

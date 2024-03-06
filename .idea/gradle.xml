@@ -4,10 +4,29 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/orchestrator/build-logic" name="build-logic">
+                <projects>
+                  <project path="$PROJECT_DIR$/orchestrator/build-logic" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
         <option name="externalProjectPath" value="$PROJECT_DIR$/orchestrator" />
+        <option name="gradleJvm" value="temurin-21" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/orchestrator" />
+            <option value="$PROJECT_DIR$/orchestrator/build-logic" />
+            <option value="$PROJECT_DIR$/orchestrator/projects/application" />
+            <option value="$PROJECT_DIR$/orchestrator/projects/plugin-api" />
+            <option value="$PROJECT_DIR$/orchestrator/projects/plugin-docker" />
+            <option value="$PROJECT_DIR$/orchestrator/projects/plugin-gerrit" />
+            <option value="$PROJECT_DIR$/orchestrator/projects/shared-kernel" />
+            <option value="$PROJECT_DIR$/orchestrator/projects/utilities" />
           </set>
         </option>
       </GradleProjectSettings>

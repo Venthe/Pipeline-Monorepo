@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 
-GERRIT_URL="localhost:1555"
+set -o errexit
+
+GERRIT_URL="localhost:15480"
 GERRIT_PROTOCOL="http"
-GERRIT_USERNAME="admin"
-GERRIT_PASSWORD="secret"
+GERRIT_USERNAME="jjuly"
+GERRIT_PASSWORD="OAecUbpB1emXS1YFYVy2+eS3x62VfTxJHWOGTo13Og"
 
 function gerrit_allow_force_update() {
   echo "Resetting permissions for All-Projects"

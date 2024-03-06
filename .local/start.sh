@@ -5,7 +5,7 @@
 # TODO: Replicated gerrit?
 docker compose \
   --env-file=./.env \
-  --file=./postgres.docker-compose.yml \
+  --file=./pgadmin.docker-compose.yml \
   --file=./rocketchat.docker-compose.yml \
   --file=./nexus.docker-compose.yml \
   --file=./openldap.docker-compose.yml \

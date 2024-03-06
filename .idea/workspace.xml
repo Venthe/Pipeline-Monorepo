@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="deb73d3c-bafb-4107-94ed-0e09d53a328c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/orchestrator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/projects/application/orchestrator.application.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/projects/application/orchestrator.application.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/projects/plugin-api/orchestrator.plugin-api.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/projects/plugin-docker/orchestrator.plugin-docker.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/projects/plugin-gerrit/orchestrator.plugin-gerrit.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/projects/shared-kernel/orchestrator.shared-kernel.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/projects/utilities/orchestrator.utilities.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/runner.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.local/pgadmin.docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/routes/root.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestrator/.local/nginx.docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestrator/.local/nginx/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/contexts/definitions/CommitExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/contexts/definitions/RepositoryExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/contexts/definitions/UserLite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/projects_source/core/application/ProjectSourceConfigurationDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/projects_source/core/application/ProjectSourceConfigurationNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/projects_source/core/application/ProjectsSourceConfigurationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/projects_source/core/application/ProjectsSourceConfigurationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/projects_source/core/application/ProjectsSourceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/projects_source/core/domain/ProjectSourceConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/projects_source/core/domain/ProjectSourceConfigurationFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/projects_source/core/domain/ProjectSourceConfigurationId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/projects_source/core/domain/ProjectsSourceFeatureFlags.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/projects_source/core/domain/events/ProjectDiscoveredEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/projects_source/core/domain/events/ProjectSourceConfigurationAddedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/projects_source/core/domain/events/ProjectSourceConfigurationRemovedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/projects_source/driving_adapter/ProjectsSourceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/shared_kernel/DomainEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/shared_kernel/DomainMessageBroker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/shared_kernel/language/Aggregate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/shared_kernel/language/ApplicationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/shared_kernel/language/DomainService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/shared_kernel/language/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/shared_kernel/language/Module.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/gerrit_mediator.aotTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/gerrit_mediator.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/gerrit_mediator.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.local/gerrit/projects/load-project.sh" beforeDir="false" afterPath="$PROJECT_DIR$/.local/gerrit/projects/load-project.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.local/keycloak.docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.local/keycloak.docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.local/postgres.docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.local/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/.local/start.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.eslintrc.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintrc.cjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/_archive/.requests/gerrit.http" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/_archive/.requests/gerrit.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/api/JobApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/api/JobApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/api/WorkflowExecutionApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/api/WorkflowExecutionApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/api/CustomMediaTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/api/CustomMediaTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/api/GerritWebhook.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/api/GerritWebhook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/api/MediatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/api/MediatorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/api/QueuedEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/api/QueuedEventListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/api/model/EventTriggerDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/api/model/EventTriggerDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/application/EventDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/application/EventDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/application/EventHandlerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/application/EventHandlerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/application/EventHandlerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/application/EventHandlerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/application/event_handlers/EventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/application/event_handlers/EventHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/application/event_handlers/EventType.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/application/event_handlers/EventType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/application/event_handlers/HandlerRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/application/event_handlers/HandlerRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/application/event_handlers/PipelineEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/application/event_handlers/PipelineEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/application/event_handlers/WorkflowDispatchEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/application/event_handlers/WorkflowDispatchEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/application/event_handlers/WorkflowDispatchHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/application/event_handlers/WorkflowDispatchHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/configuration/MongoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/configuration/MongoConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/core/EventFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/core/EventFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/core/MediatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/core/MediatorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/core/impl/MediatorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/core/impl/MediatorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/core/model/AbstractContinuousIntegrationEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/core/model/AbstractContinuousIntegrationEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/core/model/AbstractDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/core/model/AbstractDocument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/core/model/ChangeEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/core/model/ChangeEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/core/model/DispatchEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/core/model/DispatchEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/core/model/RevisionEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/core/model/RevisionEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/core/model/vo/ContinuousIntegrationEventStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/core/model/vo/ContinuousIntegrationEventStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/core/model/vo/EventStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/core/model/vo/EventStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/core/model/vo/OldEventType.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/core/model/vo/OldEventType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/core/repository/ContinuousIntegrationEventCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/core/repository/ContinuousIntegrationEventCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/core/repository/ContinuousIntegrationEventCustomImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/core/repository/ContinuousIntegrationEventCustomImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/core/repository/ContinuousIntegrationEventRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/core/repository/ContinuousIntegrationEventRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/dependencies/JenkinsUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/dependencies/JenkinsUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/dependencies/jenkins/JenkinsApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/dependencies/jenkins/JenkinsApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/dependencies/jenkins/JenkinsConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/dependencies/jenkins/JenkinsConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/dependencies/transport/KafkaEventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/dependencies/transport/KafkaEventService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/archive/dependencies/transport/QueuedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/archive/dependencies/transport/QueuedEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/scratch/workflows/EventHandlingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/scratch/workflows/EventHandlingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/scratch/workflows/WorkflowExecutionService2.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/scratch/workflows/WorkflowExecutionService2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/scratch/workflows/handlers/WorkflowDispatchHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/scratch/workflows/handlers/WorkflowDispatchHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/scratch/workflows/model/WorkflowExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/scratch/workflows/model/WorkflowExecution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/scratch/workflows/ports/ExecutorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/scratch/workflows/ports/ExecutorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/scratch/workflows/ports/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/scratch/workflows/ports/File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/scratch/workflows/ports/VersionControlSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/scratch/workflows/ports/VersionControlSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/scratch/workflows/ports/WorkflowExecutionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/scratch/workflows/ports/WorkflowExecutionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/scratch2/model/JobExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/scratch2/model/JobExecution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/scratch2/model/WorkflowExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/scratch2/model/WorkflowExecution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/scratch2/model/events/WorkflowDispatchEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/scratch2/model/events/WorkflowDispatchEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/scratch2/services/EventBus.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/scratch2/services/EventBus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/scratch2/services/MainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/scratch2/services/MainService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive/scratch2/services/VersionControlEventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/_archive/scratch2/services/VersionControlEventHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/api/WorkflowExecutionHttpApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/api/WorkflowExecutionHttpApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/application/WorkflowExecutionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/application/WorkflowExecutionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/application/WorkflowTriggerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/application/WorkflowTriggerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/common_contexts/JsonDateTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/common_contexts/JsonDateTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/common_contexts/JsonInputs.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/common_contexts/JsonInputs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/configuration/ConfigurationProviderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/configuration/ConfigurationProviderImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/configuration/PluginConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/configuration/PluginConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/configuration/WebConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/configuration/WebConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/configuration/YamlMapperConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/configuration/YamlMapperConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/event_handlers/EventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/event_handlers/EventHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/event_handlers/EventHandlerProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/event_handlers/EventHandlerProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/event_handlers/TypedEventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/event_handlers/TypedEventHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/event_handlers/handlers/DefaultEventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/event_handlers/handlers/DefaultEventHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/event_handlers/handlers/WorkflowDispatchEventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/event_handlers/handlers/WorkflowDispatchEventHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/AbstractHandledEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/AbstractHandledEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/HandledEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/HandledEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/TriggerEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/TriggerEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/contexts/ActionContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/contexts/ActionContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/contexts/ActorContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/contexts/ActorContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/contexts/CommitContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/contexts/CommitContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/contexts/CommitsContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/contexts/CommitsContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/contexts/CommitterContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/contexts/CommitterContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/contexts/EnterpriseContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/contexts/EnterpriseContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/contexts/EventIdContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/contexts/EventIdContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/contexts/InstallationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/contexts/InstallationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/contexts/OrganizationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/contexts/OrganizationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/contexts/ProjectContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/contexts/ProjectContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/contexts/RepositoryContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/contexts/RepositoryContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/contexts/TypeContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/contexts/TypeContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/contexts/WorkflowContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/contexts/WorkflowContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/contexts/common/CommitShaContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/contexts/common/CommitShaContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/contexts/common/DateTimeContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/contexts/common/DateTimeContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/contexts/common/InputsContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/contexts/common/InputsContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/contexts/common/RefContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/contexts/common/RefContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/contexts/definitions/Commit.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/contexts/definitions/Commit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/contexts/definitions/CommitExtension.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/contexts/definitions/Committer.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/contexts/definitions/Committer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/contexts/definitions/InstallationLite.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/contexts/definitions/InstallationLite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/contexts/definitions/License.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/contexts/definitions/License.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/contexts/definitions/Organization.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/contexts/definitions/Organization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/contexts/definitions/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/contexts/definitions/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/contexts/definitions/RepositoryExtension.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/contexts/definitions/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/contexts/definitions/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/contexts/definitions/UserLite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/impl/AbstractPullRequestEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/impl/AbstractPullRequestEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/impl/PushEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/impl/PushEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/impl/WorkflowDispatchEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/impl/WorkflowDispatchEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/impl/pull_request/PullRequestClosedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/impl/pull_request/PullRequestClosedEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/impl/pull_request/PullRequestFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/impl/pull_request/PullRequestFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/impl/pull_request/PullRequestOpenedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/impl/pull_request/PullRequestOpenedEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/impl/pull_request/PullRequestReadyForReviewEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/impl/pull_request/PullRequestReadyForReviewEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/model/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/model/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/events/model/EventType.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/events/model/EventType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/infrastructure/InMemoryWorkflowExecutionRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/infrastructure/InMemoryWorkflowExecutionRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/infrastructure/WorkflowExecutionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/infrastructure/WorkflowExecutionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/plugins/plugin/git/GitTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/git/GitTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/projects/ProjectId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/projects/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/projects/ProjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/projects/ProjectSynchronizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/projects/ProjectSynchronizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/projects/api/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/projects/api/ProjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/utilities/ContextUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/utilities/ContextUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/utilities/ExpressionUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/utilities/ExpressionUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/utilities/GlobPatternMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/utilities/GlobPatternMatching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/utilities/GraphUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/utilities/GraphUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/workflow_executions/JobExecutionStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/workflow_executions/JobExecutionStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/workflow_executions/JobState.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/workflow_executions/JobState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/workflow_executions/WorkflowExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/workflow_executions/WorkflowExecution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/workflow_executions/WorkflowExecutionStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/workflow_executions/WorkflowExecutionStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/workflow_executions/dto/JobDataContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/workflow_executions/dto/JobDataContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/workflows/Workflow.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/workflows/Workflow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/workflows/contexts/ConcurrencyContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/workflows/contexts/ConcurrencyContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/workflows/contexts/DefaultsContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/workflows/contexts/DefaultsContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/workflows/contexts/EnvironmentContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/workflows/contexts/EnvironmentContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/workflows/contexts/JobsContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/workflows/contexts/JobsContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/workflows/contexts/NameContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/workflows/contexts/NameContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/workflows/contexts/PermissionsContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/workflows/contexts/PermissionsContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/workflows/contexts/RunNameContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/workflows/contexts/RunNameContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/workflows/contexts/jobs/BaseJobContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/workflows/contexts/jobs/BaseJobContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/workflows/contexts/jobs/StepJobContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/workflows/contexts/jobs/StepJobContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/workflows/contexts/jobs/WorkflowJobContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/workflows/contexts/jobs/WorkflowJobContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/workflows/contexts/jobs/contexts/MatrixContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/workflows/contexts/jobs/contexts/MatrixContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/workflows/contexts/jobs/contexts/OutputsContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/workflows/contexts/jobs/contexts/OutputsContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/workflows/contexts/jobs/contexts/StepsContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/workflows/contexts/jobs/contexts/StepsContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/workflows/contexts/jobs/contexts/StrategyContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/workflows/contexts/jobs/contexts/StrategyContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/workflows/contexts/on/AbstractOnPropertyAndIgnoredProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/workflows/contexts/on/AbstractOnPropertyAndIgnoredProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/workflows/contexts/on/OnBranches.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/workflows/contexts/on/OnBranches.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/workflows/contexts/on/OnContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/workflows/contexts/on/OnContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/workflows/contexts/on/OnInputs.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/workflows/contexts/on/OnInputs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/workflows/contexts/on/OnPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/workflows/contexts/on/OnPaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/workflows/contexts/on/OnTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/workflows/contexts/on/OnTags.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/workflows/contexts/on/OnTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/_archive2/workflows/contexts/on/OnTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/test/java/eu/venthe/pipeline/orchestrator/infrastructure/TestJobExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/test/java/eu/venthe/pipeline/orchestrator/infrastructure/TestJobExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/test/java/eu/venthe/pipeline/orchestrator/projects/ProjectSynchronizerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/test/java/eu/venthe/pipeline/orchestrator/projects/ProjectSynchronizerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/test/java/eu/venthe/pipeline/orchestrator/smoke/WorkflowDispatchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/test/java/eu/venthe/pipeline/orchestrator/smoke/WorkflowDispatchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/test/java/eu/venthe/pipeline/orchestrator/utilities/EventUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/test/java/eu/venthe/pipeline/orchestrator/utilities/EventUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/test/java/eu/venthe/pipeline/orchestrator/utilities/GraphUtilityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/test/java/eu/venthe/pipeline/orchestrator/utilities/GraphUtilityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/test/java/eu/venthe/pipeline/orchestrator/utilities/YamlUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/test/java/eu/venthe/pipeline/orchestrator/utilities/YamlUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/test/java/eu/venthe/pipeline/orchestrator/workflow_executions/WorkflowExecutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/test/java/eu/venthe/pipeline/orchestrator/workflow_executions/WorkflowExecutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/test/java/eu/venthe/pipeline/orchestrator/workflows/contexts/OnContextTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/test/java/eu/venthe/pipeline/orchestrator/workflows/contexts/OnContextTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/application/src/test/java/eu/venthe/pipeline/orchestrator/workflows/contexts/jobs/contexts/MatrixContextTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/test/java/eu/venthe/pipeline/orchestrator/workflows/contexts/jobs/contexts/MatrixContextTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/plugin-api/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/plugin-api/src/main/java/eu/venthe/pipeline/orchestrator/plugins/ConfigurationProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/plugin-api/src/main/java/eu/venthe/pipeline/orchestrator/plugins/JobExecutor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/plugin-api/src/main/java/eu/venthe/pipeline/orchestrator/plugins/ProjectProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/plugin-api/src/main/java/eu/venthe/pipeline/orchestrator/plugins/VersionControlSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/plugin-gerrit/src/main/java/eu/venthe/pipeline/orchestrator/plugins/gerrit/GerritProjectProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/plugin-gerrit/src/main/java/eu/venthe/pipeline/orchestrator/plugins/gerrit/GerritProjectProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/plugin-gerrit/src/main/java/eu/venthe/pipeline/orchestrator/plugins/gerrit/config/GerritConfigurationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/plugin-gerrit/src/main/java/eu/venthe/pipeline/orchestrator/plugins/gerrit/config/GerritConfigurationProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/utilities/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/utilities/src/main/java/eu/venthe/pipeline/orchestrator/utilities/CollectionUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/utilities/CollectionUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/utilities/src/main/java/eu/venthe/pipeline/orchestrator/utilities/InMemoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/utilities/InMemoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/projects/utilities/src/main/java/eu/venthe/pipeline/orchestrator/utilities/ObjectMapperUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/projects/application/src/main/java/eu/venthe/pipeline/orchestrator/utilities/ObjectMapperUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/settings.gradle.kts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/orchestrator">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/orchestrator">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/orchestrator/projects/plugin-api">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="orchestrator" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/orchestrator" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit/6.8.0.202311291450-r/a665a8ad3a3fbeaee292d5927d204ffe8f6aa23d/org.eclipse.jgit-6.8.0.202311291450-r.jar!/org/eclipse/jgit/api/FetchCommand.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit/6.8.0.202311291450-r/cac7e70538504f035929d9f5fb53295a345746be/org.eclipse.jgit-6.8.0.202311291450-r-sources.jar!/org/eclipse/jgit/api/CloneCommand.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit/6.8.0.202311291450-r/cac7e70538504f035929d9f5fb53295a345746be/org.eclipse.jgit-6.8.0.202311291450-r-sources.jar!/org/eclipse/jgit/api/FetchCommand.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit/6.8.0.202311291450-r/cac7e70538504f035929d9f5fb53295a345746be/org.eclipse.jgit-6.8.0.202311291450-r-sources.jar!/org/eclipse/jgit/api/Git.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit/6.8.0.202311291450-r/cac7e70538504f035929d9f5fb53295a345746be/org.eclipse.jgit-6.8.0.202311291450-r-sources.jar!/org/eclipse/jgit/api/LsRemoteCommand.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit/6.8.0.202311291450-r/cac7e70538504f035929d9f5fb53295a345746be/org.eclipse.jgit-6.8.0.202311291450-r-sources.jar!/org/eclipse/jgit/api/TransportCommand.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit/6.8.0.202311291450-r/cac7e70538504f035929d9f5fb53295a345746be/org.eclipse.jgit-6.8.0.202311291450-r-sources.jar!/org/eclipse/jgit/api/TransportConfigCallback.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit/6.8.0.202311291450-r/cac7e70538504f035929d9f5fb53295a345746be/org.eclipse.jgit-6.8.0.202311291450-r-sources.jar!/org/eclipse/jgit/api/errors/TransportException.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit/6.8.0.202311291450-r/cac7e70538504f035929d9f5fb53295a345746be/org.eclipse.jgit-6.8.0.202311291450-r-sources.jar!/org/eclipse/jgit/transport/CredentialsProvider.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit/6.8.0.202311291450-r/cac7e70538504f035929d9f5fb53295a345746be/org.eclipse.jgit-6.8.0.202311291450-r-sources.jar!/org/eclipse/jgit/transport/FetchProcess.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit/6.8.0.202311291450-r/cac7e70538504f035929d9f5fb53295a345746be/org.eclipse.jgit-6.8.0.202311291450-r-sources.jar!/org/eclipse/jgit/transport/Transport.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit/6.8.0.202311291450-r/cac7e70538504f035929d9f5fb53295a345746be/org.eclipse.jgit-6.8.0.202311291450-r-sources.jar!/org/eclipse/jgit/transport/TransportHttp.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit/6.8.0.202311291450-r/cac7e70538504f035929d9f5fb53295a345746be/org.eclipse.jgit-6.8.0.202311291450-r-sources.jar!/org/eclipse/jgit/transport/UsernamePasswordCredentialsProvider.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit/6.8.0.202311291450-r/cac7e70538504f035929d9f5fb53295a345746be/org.eclipse.jgit-6.8.0.202311291450-r-sources.jar!/org/eclipse/jgit/util/HttpSupport.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/temurin-21.0.2/lib/src.zip!/java.base/java/io/File.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/temurin-21.0.2/lib/src.zip!/java.base/java/net/ConnectException.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/temurin-21.0.2/lib/src.zip!/java.base/java/net/Socket.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/temurin-21.0.2/lib/src.zip!/java.base/java/net/SocksSocketImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/temurin-21.0.2/lib/src.zip!/java.base/java/util/Optional.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/temurin-21.0.2/lib/src.zip!/java.base/sun/nio/ch/Net.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/temurin-21.0.2/lib/src.zip!/java.base/sun/nio/ch/NioSocketImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/temurin-21.0.2/lib/src.zip!/java.base/sun/security/ssl/SSLSocketImpl.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="file://$PROJECT_DIR$/orchestrator/_archive/.requests/gerrit.http" environment="home.arpa" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2boTPYKH6G7mAn4mSUAsPb02CEM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker..local/nginx.docker-compose.yml.proxy: Compose Deployment.executor": "Run",
+    "Gradle.Build orchestrator.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
+    "Gradle.GitTesterTest.name.executor": "Run",
+    "Gradle.ProjectSynchronizerTest.executor": "Run",
+    "Gradle.ProjectSynchronizerTest.name.executor": "Run",
+    "Gradle.orchestrator [bootJar].executor": "Run",
+    "Gradle.orchestrator [clean].executor": "Debug",
+    "Gradle.orchestrator [test].executor": "Run",
+    "HTTP Request.gerrit | List Projects.executor": "Run",
+    "HTTP Request.test | #1.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Application.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "WIP",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/venthe/Repositories/Pipeline-Monorepo/orchestrator/projects/shared-kernel",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "rest.client.default.execution.environment": "home.arpa",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "ts.external.directory.path": "/home/venthe/Repositories/Pipeline-Monorepo/runner/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RdControllerToolWindowsLayoutState" isNewUi="true">
+    <layout>
+      <window_info id="Space Code Reviews" show_stripe_button="false" />
+      <window_info id="Bookmarks" show_stripe_button="false" side_tool="true" />
+      <window_info id="Merge Requests" show_stripe_button="false" />
+      <window_info id="Commit_Guest" show_stripe_button="false" />
+      <window_info id="npm" show_stripe_button="false" side_tool="true" />
+      <window_info id="Pull Requests" show_stripe_button="false" />
+      <window_info id="Learn" show_stripe_button="false" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36650777" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Profiler" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.4821356" side_tool="true" visible="true" weight="0.24739763" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" sideWeight="0.5002744" weight="0.3300926" />
+      <window_info anchor="bottom" id="Build" order="3" sideWeight="0.5178644" visible="true" weight="0.24739763" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.63137496" weight="0.24739763" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.43016648" weight="0.24739763" />
+      <window_info anchor="bottom" id="Services" order="6" sideWeight="0.500406" weight="0.32997918" />
+      <window_info anchor="right" id="Endpoints" show_stripe_button="false" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32997233" />
+      <window_info anchor="right" id="Beans" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.08204211" />
+    </layout>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/orchestrator/projects/shared-kernel" />
+      <recent name="$PROJECT_DIR$/orchestrator/projects/utilities" />
+      <recent name="$PROJECT_DIR$/orchestrator/projects/plugin-gerrit" />
+      <recent name="$PROJECT_DIR$/orchestrator/projects/plugin-docker" />
+      <recent name="$PROJECT_DIR$/orchestrator/projects/application" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/orchestrator/_archive" />
+      <recent name="$PROJECT_DIR$/orchestrator/projects/application/src" />
+      <recent name="$PROJECT_DIR$/orchestrator/projects" />
+      <recent name="$PROJECT_DIR$/orchestrator" />
+      <recent name="$PROJECT_DIR$/.idea/modules" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="eu.venthe.pipeline.orchestrator.projects" />
+      <recent name="eu.venthe.pipeline.orchestrator.plugins.plugin.git" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="eu.venthe.pipeline.orchestrator.projects_sources.events" />
+      <recent name="eu.venthe.pipeline.orchestrator.shared_kernel.language" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="ProjectSynchronizerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/orchestrator" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":application:test" />
+            <option value="--tests" />
+            <option value="&quot;eu.venthe.pipeline.orchestrator.projects.ProjectSynchronizerTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProjectSynchronizerTest.name" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/orchestrator" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":application:test" />
+            <option value="--tests" />
+            <option value="&quot;eu.venthe.pipeline.orchestrator.projects.ProjectSynchronizerTest.name&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" value="-Djavax.net.debug=all -Djavax.net.ssl.trustStore=trustStore" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="-Djavax.net.debug=all -Djavax.net.ssl.trustStore=trustStore" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="orchestrator [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/orchestrator" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" value="-Djavax.net.debug=all -Djavax.net.ssl.trustStore=trustStore" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="gerrit | List Projects" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/orchestrator/_archive/.requests/gerrit.http" requestIdentifier="List Projects" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="orchestrator.application.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="eu.venthe.pipeline.orchestrator.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name=".local/nginx.docker-compose.yml.proxy: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="services">
+            <list>
+              <option value="proxy" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="orchestrator/.local/nginx.docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker..local/nginx.docker-compose.yml.proxy: Compose Deployment" />
+      <item itemvalue="Gradle.orchestrator [test]" />
+      <item itemvalue="Gradle.ProjectSynchronizerTest" />
+      <item itemvalue="Gradle.ProjectSynchronizerTest.name" />
+      <item itemvalue="HTTP Request.gerrit | List Projects" />
+      <item itemvalue="Spring Boot.Application" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.orchestrator [test]" />
+        <item itemvalue="Gradle.ProjectSynchronizerTest.name" />
+        <item itemvalue="Docker..local/nginx.docker-compose.yml.proxy: Compose Deployment" />
+        <item itemvalue="HTTP Request.gerrit | List Projects" />
+        <item itemvalue="Gradle.ProjectSynchronizerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-temurin-21.0.2-4caba194b151-51f4b930" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="deb73d3c-bafb-4107-94ed-0e09d53a328c" name="Changes" comment="" />
+      <created>1706880409179</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706880409179</updated>
+      <workItem from="1706880410778" duration="14974000" />
+      <workItem from="1707383120138" duration="232000" />
+      <workItem from="1707383368760" duration="5032000" />
+      <workItem from="1707490044148" duration="1198000" />
+      <workItem from="1707737210938" duration="1420000" />
+      <workItem from="1707753201855" duration="113000" />
+      <workItem from="1707753372454" duration="15028000" />
+      <workItem from="1707918074560" duration="1196000" />
+      <workItem from="1708340472051" duration="1252000" />
+      <workItem from="1708634868585" duration="133000" />
+      <workItem from="1708635043230" duration="1514000" />
+      <workItem from="1708679332736" duration="37000" />
+      <workItem from="1708679418997" duration="29000" />
+      <workItem from="1708679455021" duration="3745000" />
+      <workItem from="1708729369151" duration="2296000" />
+      <workItem from="1709542898649" duration="7228000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit/6.8.0.202311291450-r/cac7e70538504f035929d9f5fb53295a345746be/org.eclipse.jgit-6.8.0.202311291450-r-sources.jar!/org/eclipse/jgit/util/HttpSupport.java</url>
+          <line>239</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit/6.8.0.202311291450-r/cac7e70538504f035929d9f5fb53295a345746be/org.eclipse.jgit-6.8.0.202311291450-r-sources.jar!/org/eclipse/jgit/transport/TransportHttp.java</url>
+          <line>687</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit/6.8.0.202311291450-r/cac7e70538504f035929d9f5fb53295a345746be/org.eclipse.jgit-6.8.0.202311291450-r-sources.jar!/org/eclipse/jgit/transport/TransportHttp.java</url>
+          <line>643</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit/6.8.0.202311291450-r/cac7e70538504f035929d9f5fb53295a345746be/org.eclipse.jgit-6.8.0.202311291450-r-sources.jar!/org/eclipse/jgit/transport/TransportHttp.java</url>
+          <line>651</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit/6.8.0.202311291450-r/cac7e70538504f035929d9f5fb53295a345746be/org.eclipse.jgit-6.8.0.202311291450-r-sources.jar!/org/eclipse/jgit/transport/TransportHttp.java</url>
+          <line>681</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <breakpoint type="java-exception">
+          <properties class="java.util.NoSuchElementException" package="java.util" />
+          <option name="timeStamp" value="10" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.net.ConnectException" memberName="backtrace" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Pipeline_Monorepo$ProjectSynchronizerTest_name.ic" NAME="ProjectSynchronizerTest.name Coverage Results" MODIFIED="1708635318628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

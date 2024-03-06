@@ -1,0 +1,111 @@
+GET https://gerrit.home.arpa/a/config/server/info
+X-Gerrit-Trace: 9a1a0008-d727-4da2-a017-8a760eaadd18
+Authorization: Basic YWRtaW46c2VjcmV0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Cookie: GerritAccount=aSceprqYOW1gCApTkd6o7dZXAVInU6k3.a
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-22T220326.200.json
+
+###
+
+GET https://gerrit.home.arpa/a/config/server/info
+Authorization: Basic admin secret
+Authorization: Basic YWRtaW46c2VjcmV0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Cookie: GerritAccount=aSceprqYOW1gCApTkd6o7dZXAVInU6k3.a
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-22T220312.400.html
+
+###
+
+GET https://gerrit.home.arpa/a/config/server/info
+Authorization: Basic admin secret
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Cookie: GerritAccount=aSceprs9tj5UGqb04ZqReC5EGt7LfGTbnq
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-22T215953.200.json
+
+###
+
+GET https://gerrit.home.arpa/a/projects/?d=
+Authorization: Basic admin secret
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Cookie: GerritAccount=aSceprtEDXPzpufKntW5DdYWl8WrVobEpG
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-22T215227.200.json
+
+###
+
+GET http://localhost:8080/projects
+Accept: application/json;text/json
+accept-encoding: br, gzip, deflate
+user-agent: IntelliJ HTTP Client
+content-length: 0
+
+<> 2024-02-02T213842.200.json
+
+###
+
+GET http://localhost:8080/projects
+accept-encoding: br, gzip, deflate
+user-agent: IntelliJ HTTP Client
+accept: */*
+content-length: 0
+
+<> 2024-02-02T213820.200.json
+
+###
+
+GET http://localhost:8080/projects
+accept-encoding: br, gzip, deflate
+user-agent: IntelliJ HTTP Client
+accept: */*
+content-length: 0
+
+<> 2024-02-02T213818.200.json
+
+###
+
+GET https://gerrit.home.arpa/a/projects/?d=
+Authorization: Basic admin secret
+accept-encoding: br, gzip, deflate
+user-agent: IntelliJ HTTP Client
+cookie: GerritAccount=aSceprsCEWjVzsoHyKvz5AiHsiKR-r.JaG
+accept: */*
+content-length: 0
+
+<> 2024-02-02T212100.200.json
+
+###
+
+GET https://gerrit.home.arpa/a/projects/
+Authorization: Basic admin secret
+accept-encoding: br, gzip, deflate
+user-agent: IntelliJ HTTP Client
+cookie: GerritAccount=aSceprrWIxj07KT55fvvKMhCcPCvW04QNq
+accept: */*
+content-length: 0
+
+<> 2024-02-02T212056.200.json
+
+###
+
+GET https://gerrit.home.arpa/a/projects/?d=
+Authorization: Basic admin secret
+accept-encoding: br, gzip, deflate
+user-agent: IntelliJ HTTP Client
+accept: */*
+content-length: 0
+
+<> 2024-02-02T212023.200.json
+
+###
+
