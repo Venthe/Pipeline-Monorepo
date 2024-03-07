@@ -7,11 +7,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/orchestrator.iml" filepath="$PROJECT_DIR$/.idea/modules/orchestrator.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/projects/application/orchestrator.application.main.iml" filepath="$PROJECT_DIR$/.idea/modules/projects/application/orchestrator.application.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/projects/application/orchestrator.application.test.iml" filepath="$PROJECT_DIR$/.idea/modules/projects/application/orchestrator.application.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/projects/plugin-api/orchestrator.plugin-api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/projects/plugin-api/orchestrator.plugin-api.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/projects/plugin-docker/orchestrator.plugin-docker.main.iml" filepath="$PROJECT_DIR$/.idea/modules/projects/plugin-docker/orchestrator.plugin-docker.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/projects/plugin-gerrit/orchestrator.plugin-gerrit.main.iml" filepath="$PROJECT_DIR$/.idea/modules/projects/plugin-gerrit/orchestrator.plugin-gerrit.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/projects/shared-kernel/orchestrator.shared-kernel.main.iml" filepath="$PROJECT_DIR$/.idea/modules/projects/shared-kernel/orchestrator.shared-kernel.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/projects/utilities/orchestrator.utilities.main.iml" filepath="$PROJECT_DIR$/.idea/modules/projects/utilities/orchestrator.utilities.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/runner.iml" filepath="$PROJECT_DIR$/.idea/modules/runner.iml" />
     </modules>
   </component>

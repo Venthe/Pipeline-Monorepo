@@ -23,16 +23,6 @@
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.30/f195ee86e6c896ea47a1d39defbe20eb59cd149d/lombok-1.18.30.jar" />
         </processorPath>
         <module name="orchestrator.application.test" />
-        <module name="orchestrator.plugin-docker.main" />
-        <module name="orchestrator.plugin-gerrit.test" />
-        <module name="orchestrator.plugin-api.test" />
-        <module name="orchestrator.utilities.main" />
-        <module name="orchestrator.plugin-api.main" />
-        <module name="orchestrator.plugin-gerrit.main" />
-        <module name="orchestrator.shared-kernel.main" />
-        <module name="orchestrator.utilities.test" />
-        <module name="orchestrator.shared-kernel.test" />
-        <module name="orchestrator.plugin-docker.test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -42,7 +32,21 @@
       <module name="orchestrator.buildSrc.main" target="21" />
       <module name="orchestrator.buildSrc.test" target="21" />
       <module name="orchestrator.main" target="21" />
+      <module name="orchestrator.plugin-api.main" target="21" />
+      <module name="orchestrator.plugin-api.test" target="21" />
+      <module name="orchestrator.plugin-docker" target="21" />
+      <module name="orchestrator.plugin-docker.main" target="21" />
+      <module name="orchestrator.plugin-docker.test" target="21" />
+      <module name="orchestrator.plugin-gerrit" target="21" />
+      <module name="orchestrator.plugin-gerrit.main" target="21" />
+      <module name="orchestrator.plugin-gerrit.test" target="21" />
+      <module name="orchestrator.shared-kernel" target="21" />
+      <module name="orchestrator.shared-kernel.main" target="21" />
+      <module name="orchestrator.shared-kernel.test" target="21" />
       <module name="orchestrator.test" target="21" />
+      <module name="orchestrator.utilities" target="21" />
+      <module name="orchestrator.utilities.main" target="21" />
+      <module name="orchestrator.utilities.test" target="21" />
       <module name="test-gradle-build-logic" target="21" />
       <module name="test-gradle-build-logic.main" target="21" />
       <module name="test-gradle-build-logic.test" target="21" />
